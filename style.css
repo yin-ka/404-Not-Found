@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px 0 0 40px;
+}
+
+.logo {
+    padding-top: 20px;
+    margin-left: 3rem;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25.18px;
+    letter-spacing: -0.08em;
+    text-align: left;
+}
+
+.views {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #FFFFFF;
+}
+
+.view-1, .view-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 539.22px;
+}
+
+.subview-1 {
+    width: 100%;
+    max-width: 550px;
+    margin-top: 12rem;
+}
+
+h1 {
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 94.78px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    padding: 0 0 0 5rem;
+}
+
+.subview-2 {
+    width: 100%;
+    max-width: 381px;
+    margin-top: 3rem;
+}
+
+.subview-2 > p {
+    font-family: Space Mono;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35.54px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #4F4F4F;
+    padding: 0 0 0 5rem;
+}
+
+.subview-3 {
+    width: auto;
+    max-width: 216px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    background: #333333;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.73px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 10px 0 0 20px;
+    }
+
+    .logo {
+        margin-left: 1.5rem;
+        font-size: 20px;
+    }
+
+    .view-1, .view-2 {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .subview-1, .subview-2 {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    h1 {
+        font-size: 48px;
+        padding: 0;
+    }
+
+    .subview-2 > p {
+        font-size: 24px;
+        padding: 0;
+    }
+
+    .subview-3 {
+        width: auto;
+        max-width: 180px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 0 0 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+        margin-left: 1rem;
+    }
+
+    .view-1, .view-2 {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .subview-1 {
+        margin-top: 6rem;
+        padding: 0 1rem;
+    }
+
+    h1 {
+        font-size: 36px;
+        padding: 0;
+    }
+
+    .subview-2 {
+        padding: 0 1rem;
+    }
+
+    .subview-2 > p {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .subview-3 {
+        width: auto;
+        max-width: 150px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px 0 0 5px;
+    }
+
+    .logo {
+        font-size: 16px;
+        margin-left: 0.5rem;
+    }
+
+    .view-1, .view-2 {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .subview-1 {
+        margin-top: 4rem;
+        padding: 0 0.5rem;
+    }
+
+    h1 {
+        font-size: 28px;
+        padding: 0;
+    }
+
+    .subview-2 {
+        padding: 0 0.5rem;
+    }
+
+    .subview-2 > p {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .subview-3 {
+        width: auto;
+        max-width: 120px;
+        font-size: 10px;
+    }
+}
